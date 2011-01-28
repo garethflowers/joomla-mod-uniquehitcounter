@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+
+<install version="1.5" type="module">
+    <name>Unique Hit Counter</name>
+    <creationDate>March 2010</creationDate>
+    <copyright>Copyright (C) 2010 Gareth Flowers. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <author>Gareth Flowers</author>
+    <authorEmail>info@garethflowers.com</authorEmail>
+    <authorUrl>http://garethflowers.com/</authorUrl>
+    <version>1.0</version>
+    <description>A simple unique hit counter module</description>
+    <files>
+        <filename>mod_uniquehitcounter.xml</filename>
+        <filename module="mod_uniquehitcounter">mod_uniquehitcounter.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>images/odometer0.png</filename>
+        <filename>images/odometer1.png</filename>
+        <filename>images/odometer2.png</filename>
+        <filename>images/odometer3.png</filename>
+        <filename>images/odometer4.png</filename>
+        <filename>images/odometer5.png</filename>
+        <filename>images/odometer6.png</filename>
+        <filename>images/odometer7.png</filename>
+        <filename>images/odometer8.png</filename>
+        <filename>images/odometer9.png</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.mod_uniquehitcounter.ini</language>
+    </languages>
+    <params>
+        <param name="startoffset" type="text" size="20" default="0" label="Start Offset" description="Offset the initial counter value by this amount" />
+        <param name="filllength" type="text" size="20" default="6" label="Zero Fill Length" description="Pad the number with zeros to at least this number of digits" />
+        <param name="beforecontent" type="text" size="60" default="" label="Before Content" description="Content to display before the hit count" />
+        <param name="aftercontent" type="text" size="60" default="" label="After Content" description="Content to display after the hit count" />
+        <param name="ignoreips" type="textarea" rows="5" cols="60" default="" label="Ignore IPs" description="List of IP addresses to ignore (can be split be newlines, commas or spaces)" />
+        <param name="displaytype" type="radio" default="0" label="Display Type" description="Select a how to display the hit counter">
+            <option value="0">Text</option>
+            <option value="1">Image</option>
+        </param>
+    </params>
+</install>
