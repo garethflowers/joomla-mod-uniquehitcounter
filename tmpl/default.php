@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Default Output for Unique Hit Counter Module
  *
@@ -9,10 +10,13 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
  * @author Gareth Flowers (info@garethflowers.com)
  * @link http://garethflowers.com/joomlauniquehitcounter/
- **/
-
+ */
 // no direct access
-defined( '_JEXEC' ) or die( 'Restricted access' );
+defined( '_JEXEC' ) or exit( 'Restricted access' );
+
+if ( !isset( $mod_uniquehitcounter_hitcount ) )
+{
+    $mod_uniquehitcounter_hitcount = '';
+}
 
 echo $mod_uniquehitcounter_hitcount;
-?>
