@@ -8,8 +8,8 @@
  * @subpackage Modules
  * @copyright (C) 2010 Gareth Flowers. All rights reserved.
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
- * @author Gareth Flowers (info@garethflowers.com)
- * @link http://garethflowers.com/joomlauniquehitcounter/
+ * @author Gareth Flowers
+ * @link https://garethflowers.dev/joomla-mod-uniquehitcounter/
  */
 // no direct access
 defined( '_JEXEC' ) or exit( 'Restricted access' );

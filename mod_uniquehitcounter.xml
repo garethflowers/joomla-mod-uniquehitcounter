@@ -6,8 +6,7 @@
     <copyright>Copyright (C) 2010 Gareth Flowers. All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <author>Gareth Flowers</author>
-    <authorEmail>info@garethflowers.com</authorEmail>
-    <authorUrl>http://garethflowers.com/</authorUrl>
+    <authorUrl>https://garethflowers.dev/</authorUrl>
     <version>1.0</version>
     <description>A simple unique hit counter module</description>
     <files>

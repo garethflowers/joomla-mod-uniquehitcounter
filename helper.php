@@ -9,7 +9,7 @@
  * @Copyright (C) 2010 Gareth Flowers. All rights reserved.
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
  * @author Gareth Flowers
- * @link http://garethflowers.com/joomlauniquehitcounter/
+ * @link https://garethflowers.dev/joomla-mod-uniquehitcounter/
  */
 class modUniqueHitCounterHelper
 {
